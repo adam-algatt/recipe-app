@@ -16,7 +16,7 @@ app.use(cors())
 connectDB()
 
 app.get('/', (req, res) => {
-    res.send({'alert':'api running',
+    res.send({
 'message':'Api running'})
 })
 app.use('/api/', recipeRoutes)
