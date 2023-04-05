@@ -17,7 +17,7 @@ connectDB()
 
 app.get('/', (req, res) => {
     res.send({'alert':'api running',
-'message':'fuck you'})
+'message':'Api running'})
 })
 app.use('/api/', recipeRoutes)
 app.use('/api/', userRoutes )
